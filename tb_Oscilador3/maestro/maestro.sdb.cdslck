@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      ematheus
+HostName                       sampasim1
+ProcessIdentifier              72580
+ProcessCreationTime_UTC        1714316948
+ProcessCreationTime_Readable   Sun Apr 28 12:09:08 2024 -03
+AppIdentifier                  /local/tools/IC618/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /local/users/ematheus/cadence_wd/615/tsmc13_wd/PSI_5723/tb_Oscilador3/maestro/maestro.sdb
+TimeEditLocked                 Sun Apr 28 12:39:26 2024 -03

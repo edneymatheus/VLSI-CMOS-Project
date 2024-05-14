@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      ematheus
+HostName                       sampasim1.localdomain
+ProcessIdentifier              179356
+ProcessCreationTime_UTC        1714339107
+ProcessCreationTime_Readable   Sun Apr 28 18:18:27 2024 -03
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /local/users/ematheus/cadence_wd/615/tsmc13_wd/PSI_5723/tb_Oscilador6/schematic/sch.oa.cdslck
+TimeEditLocked                 Sun Apr 28 18:18:52 2024 -03

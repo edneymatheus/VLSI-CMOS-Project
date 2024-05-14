@@ -1,0 +1,20 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Apr 26 15:40:40 2024 
+Best design point: 1
+Design specs: 
+	PSI_5723:tb_Oscilador6:1	corner	Nominal - 
+	T		323p
+	tpdf		13.87p
+	tpdr		32.23p
+	tsubida		60.58p
+	tdescida		19.94p
+	Imax		268.6u
+Design parameters: 
+	var		1.32
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.0 completed. 
+Current time: Fri Apr 26 15:40:44 2024 

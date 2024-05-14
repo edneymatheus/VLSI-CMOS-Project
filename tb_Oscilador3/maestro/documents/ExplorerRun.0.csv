@@ -1,0 +1,13 @@
+,Parameter,,,,,,C0,C1,C2,C3,C4
+,cor_std_mos.scs,,,,,,tt,tt,tt,tt,tt
+,temperature,,,,,,27,27,27,27,27
+,vdc,,,,,,960e-3,1.08,1.2,1.32,1.44
+
+Test,Output,Spec,Weight,Pass/Fail,Min,Max,C0,C1,C2,C3,C4
+PSI_5723:tb_Oscilador3:1,Vin,,,,,,,,,,
+PSI_5723:tb_Oscilador3:1,Vout,,,,,,,,,,
+PSI_5723:tb_Oscilador3:1,I,,,,,,,,,,
+PSI_5723:tb_Oscilador3:1,P,,,,,,,,,,
+PSI_5723:tb_Oscilador3:1,Pmed,,,,126.6e-6,518.3e-6,126.6e-6,196.4e-6,284.2e-6,391.3e-6,518.3e-6
+PSI_5723:tb_Oscilador3:1,f,,,,2.381e9,4.163e9,2.381e9,2.889e9,3.354e9,3.778e9,4.163e9
+

@@ -1,0 +1,33 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Apr 28 12:37:35 2024 
+Best design point: 1
+Design specs: 
+	PSI_5723:tb_Oscilador3:1	corner	C0 - 
+	T		419.9p
+	f		2.382G
+	td		29.99p
+	PSI_5723:tb_Oscilador3:1	corner	C1 - 
+	T		346.1p
+	f		2.889G
+	td		24.72p
+	PSI_5723:tb_Oscilador3:1	corner	C2 - 
+	T		298.2p
+	f		3.354G
+	td		21.3p
+	PSI_5723:tb_Oscilador3:1	corner	C3 - 
+	T		264.8p
+	f		3.776G
+	td		18.92p
+	PSI_5723:tb_Oscilador3:1	corner	C4 - 
+	T		240.4p
+	f		4.16G
+	td		17.17p
+Design parameters: 
+	vdc		960m
+
+Interactive.7
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.7 completed. 
+Current time: Sun Apr 28 12:37:48 2024 
