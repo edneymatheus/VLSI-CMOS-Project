@@ -13,9 +13,9 @@ Este repositório contém o projeto de caracterização de inversores CMOS (0,13
 
 Este projeto foi realizado como parte da disciplina "Introdução ao Projeto de Sistemas VLSI em CMOS" na USP. O objetivo da pesquisa é caracterizar inversores através da simulação de osciladores em anel com 7 inversores cada, utilizando o processo CMOS de 0,13µm e modelos avançados BSIM-3.
 
-"Desejamos caracterizar inversores e para tal considere que se tenha projetado osciladores em anel com 7 inversores cada num processo CMOS 0,13m da TSMC. Simule estes osciladores com SPICE (ou similar, mas com modelo avançado BSIM-3). O layout deve ser desenhado usando-se regras para dimensões e espaçamentos mínimos possíveis da tecnologia 0,13m CMOS da TSMC. Considerar que a soma das larguras (W) dos canais dos transistores nMOS e pMOS seja igual a 2,4um em cada inversor do oscilador. Adote os valores Wp e Wn dos transistores nos inversores a serem adotados em cada oscilador apresentados na tabela-1, onde P/N = (WP/WN), e use Ln = Lp = 0,13m (mínima permitida pela tecnologia). Considere VDD – VSS = 1,2V valor típico da tecnologia."
+"Desejamos caracterizar inversores e para tal considere que se tenha projetado osciladores em anel com 7 inversores cada num processo CMOS 0,13µm. Simule estes osciladores com SPICE (ou similar, mas com modelo avançado BSIM-3). O layout deve ser desenhado usando-se regras para dimensões e espaçamentos mínimos possíveis da tecnologia 0,13µm CMOS. Considerar que a soma das larguras (W) dos canais dos transistores nMOS e pMOS seja igual a 2,4µm em cada inversor do oscilador. Adote os valores Wp e Wn dos transistores nos inversores a serem adotados em cada oscilador apresentados na tabela, onde P/N = (WP/WN), e use Ln = Lp = 0,13µm (mínima permitida pela tecnologia). Considere VDD – VSS = 1,2V valor típico da tecnologia."
 
-| Wp/Wn | pMOS (Wp) em um  | nMOS (Wn) em um  |
+| Wp/Wn | pMOS (Wp) em µm  | nMOS (Wn) em µm  |
 |-------|------------------|------------------|
 | 5.00  | 2                | 0.4              |
 | 3.00  | 1.8              | 0.6              |
