@@ -48,16 +48,20 @@ O projeto envolve a realização de simulações no Cadence e SPICE, abordando o
 
 - **Inversor**
 - Esquemático
+  
   ![Figura 1](Figuras/8.jpeg)
 
 - Layout
+  
   ![Figura 2](Figuras/9.jpeg)
 
 - **Oscilador**
 - Esquemático
+  
   ![Figura 3](Figuras/10.jpeg)
 
 - Layout
+  
   ![Figura 4](Figuras/11.jpeg)
 
 #### Dados Coletados
