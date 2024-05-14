@@ -6,10 +6,24 @@ Este repositório contém o projeto de caracterização de inversores CMOS (0,13
 
 - `Inversores/`: Arquivos de simulação
 - `Osciladores/`: Arquivos de simulação
+- `docs/`: Documentos
+- `Figuras/`: Figuras em geral
 
 ## Propósito da Pesquisa
 
 Este projeto foi realizado como parte da disciplina "Introdução ao Projeto de Sistemas VLSI em CMOS" na USP. O objetivo da pesquisa é caracterizar inversores através da simulação de osciladores em anel com 7 inversores cada, utilizando o processo CMOS de 0,13µm e modelos avançados BSIM-3.
+
+"Desejamos caracterizar inversores e para tal considere que se tenha projetado osciladores em anel com 7 inversores cada num processo CMOS 0,13m da TSMC. Simule estes osciladores com SPICE (ou similar, mas com modelo avançado BSIM-3). O layout deve ser desenhado usando-se regras para dimensões e espaçamentos mínimos possíveis da tecnologia 0,13m CMOS da TSMC. Considerar que a soma das larguras (W) dos canais dos transistores nMOS e pMOS seja igual a 2,4um em cada inversor do oscilador. Adote os valores Wp e Wn dos transistores nos inversores a serem adotados em cada oscilador apresentados na tabela-1, onde P/N = (WP/WN), e use Ln = Lp = 0,13m (mínima permitida pela tecnologia). Considere VDD – VSS = 1,2V valor típico da tecnologia."
+
+| Wp/Wn | pMOS (Wp) em um  | nMOS (Wn) em um  |
+|-------|------------------|------------------|
+| 5.00  | 2                | 0.4              |
+| 3.00  | 1.8              | 0.6              |
+| 2.00  | 1.6              | 0.8              |
+| 1.00  | 1.2              | 1.2              |
+| 0.71  | 1.0              | 1.4              |
+| 0.50  | 0.8              | 1.6              |
+
 
 ## Descrição
 
@@ -29,6 +43,22 @@ O projeto envolve a realização de simulações no Cadence e SPICE, abordando o
 - Plotar tdescida/tsubida em função da razão P/N, td em função da razão P/N, e Imax em função da razão P/N.
 - Simular os osciladores usando os parâmetros "WORST CASE POWER (WCP)" com VDD – VSS = 1,32 V e temperatura da junção 0ºC.
 - Plotar tdescida/tsubida vs P/N, td vs P/N, e Imax vs P/N.
+
+#### Desenhos
+
+- **Inversor**
+- Esquemático
+  ![Figura 1](Figuras/8.jpeg)
+
+- Layout
+  ![Figura 2](Figuras/9.jpeg)
+
+- **Oscilador**
+- Esquemático
+  ![Figura 3](Figuras/10.jpeg)
+
+- Layout
+  ![Figura 4](Figuras/11.jpeg)
 
 #### Dados Coletados
 
@@ -130,3 +160,21 @@ Os gráficos mostram a diferença entre o tempo de descida da saída e o tempo d
 
 - **Erro (tdescida,out - tsubida,in) vs P/N**
   ![Gráfico 7](Figuras/7.jpeg)
+
+## Conclusão
+
+A realização deste projeto permitiu uma compreensão aprofundada dos diversos aspectos do design de inversores CMOS e suas aplicações em osciladores em anel. Através da execução de simulações no Cadence e SPICE, várias competências e conhecimentos cruciais foram desenvolvidos:
+
+- Regiões Operacionais dos Transistores MOSFET: A análise detalhada das regiões de corte, triode e saturação forneceu uma base sólida para entender como os transistores MOSFET operam e influenciam o comportamento dos circuitos sob diferentes condições de operação.
+
+- Análise de Capacitâncias: Os cálculos de capacitâncias em diferentes configurações e regiões operacionais ajudaram a entender como os aspectos físicos dos transistores, como área e perímetro, afetam suas propriedades elétricas e desempenho do circuito.
+
+- Dimensionamento de Transistores e Análise de Trade-offs: Ajustar as dimensões de Wp e Wn e estudar seu impacto no desempenho do circuito permitiu uma compreensão prática dos trade-offs entre velocidade e consumo de energia, crucial para otimizar designs de circuitos.
+
+- Validação Prática com Simulação: Comparar cálculos manuais com resultados de simulações usando Cadence ofereceu uma valiosa verificação prática, destacando a precisão das técnicas de cálculo e revelando áreas para ajustes finos nas estimativas e modelos teóricos.
+
+- Aplicações das Teorias em Contexto Real: Utilizar literatura técnica e especificações de PDK (Process Design Kit) para aplicar teoricamente e verificar praticamente como os princípios de design influenciam o resultado final em um projeto de VLSI.
+
+Os resultados obtidos demonstram a importância da otimização cuidadosa das proporções de largura dos transistores pMOS e nMOS em projetos de circuitos VLSI, particularmente para designs onde o tempo de atraso é uma métrica crítica de desempenho. Além disso, os gráficos gerados fornecem uma base quantitativa para tomar decisões informadas sobre as especificações de design e operação dos osciladores CMOS.
+
+Este projeto não apenas solidificou a compreensão dos fundamentos teóricos, mas também melhorou a habilidade em aplicar esses conceitos em cenários práticos de engenharia, preparando para desafios mais complexos no design de sistemas integrados.
