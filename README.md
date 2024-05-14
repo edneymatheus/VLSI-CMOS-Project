@@ -57,13 +57,13 @@ O projeto envolve a realização de simulações no Cadence e SPICE, abordando o
 #### Gráficos
 
 - **Razão tdescida/tsubida vs Razão Wp/Wn (Parte A e Parte B)**
-  ![Gráfico 1](/home/rfic/Git/VLSI-CMOS-Project/1.jpeg)
+  ![Gráfico 1](Figuras/1.jpeg)
 
 - **Atraso Médio dos Inversores (td) vs Razão Wp/Wn (Parte A e Parte B)**
-  ![Gráfico 2](/home/rfic/Git/VLSI-CMOS-Project/2.jpeg)
+  ![Gráfico 2](Figuras/2.jpeg)
 
 - **Corrente de Pico (Imax) vs Razão Wp/Wn (Parte A e Parte B)**
-  ![Gráfico 3](/home/rfic/Git/VLSI-CMOS-Project/3.jpeg)
+  ![Gráfico 3](Figuras/3.jpeg)
 
 ### Parte C
 
@@ -90,7 +90,7 @@ A melhor razão P/N é 2.00, pois apresenta o menor tempo de atraso em ambas as 
 Os atrasos normalizados são calculados dividindo todos os td pelo menor valor de td encontrado para cada parte e multiplicando por 100.
 
 - **td Normalizado vs Razão Wp/Wn (Parte A e Parte B)**
-  ![Gráfico 4](/home/rfic/Git/VLSI-CMOS-Project/4.jpeg)
+  ![Gráfico 4](Figuras/4.jpeg)
 
 ### Parte D
 
@@ -115,10 +115,10 @@ Resultados Simulados:
 Gráficos de Atraso Médio dos Inversores e Potência por MHz:
 
 - **Atraso Médio dos Inversores (td) vs. VDD – VSS**
-  ![Gráfico 5](/home/rfic/Git/VLSI-CMOS-Project/5.jpeg)
+  ![Gráfico 5](Figuras/5.jpeg)
 
 - **Potência por MHz vs. VDD – VSS**
-  ![Gráfico 6](/home/rfic/Git/VLSI-CMOS-Project/6.jpeg)
+  ![Gráfico 6](Figuras/6.jpeg)
 
 ### Parte E
 
@@ -129,4 +129,4 @@ Gráficos de Atraso Médio dos Inversores e Potência por MHz:
 Os gráficos mostram a diferença entre o tempo de descida da saída e o tempo de subida da entrada (tfout - trin) e como isso afeta Imax.
 
 - **Erro (tdescida,out - tsubida,in) vs P/N**
-  ![Gráfico 7](/home/rfic/Git/VLSI-CMOS-Project/7.jpeg)
+  ![Gráfico 7](Figuras/7.jpeg)
